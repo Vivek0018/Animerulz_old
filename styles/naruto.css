@@ -1,0 +1,351 @@
+
+.container {
+    color: #101820ff;
+    margin-top: 210px;
+    margin-left: 100px;
+    padding: 10px 10px 10px 10px;
+  }
+  .blink {
+    margin-top: 10px;
+    font-size: 20px;
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  body {
+    background-image: url("https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1500px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .headingdiv {
+    background-color: rgba(35, 38, 67, 0.5);
+  }
+  .naruto_img {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 230px;
+    height: 330px;
+    margin-top: 170px;
+    margin-left: 130px;
+    border-radius: 10px;
+  }
+  .headingAnime {
+    font-size: 75px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    float: left;
+  }
+  .dot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .heading:hover {
+    opacity: 1;
+  }
+  .heading {
+    width: 350px;
+    height: 80px;
+    object-fit: fill;
+  }
+  .data {
+    margin-left: 270px;
+  }
+
+  .round {
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    padding: 1px 1px 1px 1px;
+  }
+  .mainhead {
+    padding: 10px 10px 10px 10px;
+  }
+  .videoinfo {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-top: 20px;
+  }
+  #info {
+    margin-left: 10px;
+  }
+  #Genree {
+    margin-left: 10px;
+  }
+  .Genre {
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+  span.round {
+    padding-left: 3x;
+    padding-right: 3px;
+  }
+  .imdbrating {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    border-width: 3px;
+    border-radius: 10px;
+  }
+  .imdbratingstar {
+    height: 20px;
+    margin-top: 10px;
+    width: 40px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .imdbrate {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .imdbvalue {
+    font-size: 20px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+  }
+  a {
+    text-decoration: none;
+  }
+  #Genremain {
+    font-size: 20px;
+  }
+  .glow {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px #ef3550, -1px 1px #f48fb1, -1px 1px #7e57c2,
+      -1px 1px #2196f3, -1px 1px #26c6da, -1px 1px #43a047, -1px 1px #eeff41,
+      -1px 1px #f9a825, -1px 1px #ff5722;
+  }
+  .seasons {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  .small {
+    display: none;
+  }
+  .bottom{
+    background-color: rgba(35, 38, 67, 1);
+    padding-bottom: 30px;
+  }
+  .fbshare{
+    height:42px;
+    width:43px;
+    border-radius: 10px;
+  }
+  .bottom-heading-logo{
+    display: left;
+  }
+  .tgshare{
+    height:43px;
+    width:43px;
+  }
+  .igshare{
+    height: 43px;
+    padding:0px 10px 0px 10px;
+    width:42px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+  }
+  .igshare:hover{
+    height: 48px;
+    width: 48px;
+    margin-bottom: 10px;
+  }
+  .btm-heading{
+    height:70px;
+    width:300px;
+    display: left;
+  }
+  .fbshare:hover{
+    height:50px;
+    width:50px;
+  }
+  .share{
+    margin-left: 40%;
+  }
+  .fb-share{
+    float:left;
+  }
+  .shareheading{
+    display: block;
+  }
+  .ig-share{
+    float:left;
+  }
+  .tgshare:hover{
+    height:50px;
+    width:50px;
+  }
+  .tg-share{
+    float: left;
+    padding:0px 10px 0px 0px;
+  }
+  .tw-share{
+    padding-left: 10px;
+  }
+  .twshare:hover{
+    height:48px;
+    width:50px;
+  }
+  .twshare{
+    height:42px;
+    width:42px;
+    border-radius: 8px;
+  }
+  .about{
+    float:right;
+    color: white;
+    padding:20px 20px 20px 20px;
+  }
+  .infologo{
+    height:20px;
+    width:20px;
+  }
+  a.aboutus{
+    color:white;
+  }
+  a.aboutus:hover{
+    color:orange;
+  }
+  .btm-info{
+    color:#808080;
+    padding:0px 30px 0px 30px;
+  }
+  p.terms-des{
+    padding:0px 20px 0px 20px;
+  }
+  .seasons-mobile{
+    display: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .heading {
+      width: 100%;
+    }
+    .share{
+      margin-left: 25%;
+    }
+    body {
+      background-size: 1200px;
+    }
+    .container {
+      margin-top: 5px;
+      margin-left: 0px;
+    }
+    .data {
+      margin-left: auto;
+    }
+    .headingAnime {
+      text-align: center;
+      float: none;
+      margin-top: 0px;
+      font-size: 40px;
+      padding-top: 0px;
+    }
+    ul {
+      text-align: center;
+    }
+    .videoinfo {
+      display: none;
+    }
+    .small {
+      display: contents;
+    }
+    .large {
+      display: none;
+    }
+    .imdbrating {
+      display: none;
+    }
+    .Genre {
+      font-size: 13px;
+      margin-top: 0px;
+      text-align: center;
+    }
+    .Genremain {
+      font-size: 15px;
+    }
+    .naruto_img {
+      display: block;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      height: 200px;
+      width: 150px;
+      padding: 10px 10px 10px 10px;
+      padding-bottom: 0px;
+      border-radius: 25px;
+    }
+    .heading {
+      height: 70px;
+    }
+    .seasons-mobile{
+      display: none;
+    }
+  }
+  @media only screen and (max-width:430px){
+    .body{
+      background-image: url("kakashi-naruto.jpg");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-size: 10px;
+      width: 100%;
+      margin-top: 0px;
+    }
+    .Genre{
+      text-align: left;
+    }
+  .seasons{
+    display: none;
+  }
+  .seasons-mobile{
+    display: block;
+  }
+  .list{
+    text-align: left;
+  }
+  .about{
+    display: none;
+  }
+  p.seasons-mobile-no{
+    text-align: center;
+    font-size: 25px;
+  }
+  .seasons-mobile-audio{
+    font-size: 16px;
+    text-align: center;
+  }
+  .share{
+    margin-left:25%;
+  }
+  .blink{
+   margin-left: 30%;
+  }
+  .main{
+    margin-right: 10px;
+  }
+  }

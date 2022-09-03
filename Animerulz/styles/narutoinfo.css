@@ -1,0 +1,292 @@
+body {
+    background-image: url("kakashi-naruto.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1500px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .headingdiv {
+    background-color: rgba(35, 38, 67, 0.5);
+  }
+  .heading {
+    width: 350px;
+    height: 80px;
+    object-fit: fill;
+  }
+
+  .naruto_img {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 230px;
+    height: 330px;
+    margin-top: 170px;
+    margin-left: 130px;
+    border-radius: 10px;
+  }
+  .mainhead {
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 10px;
+    float: left;
+  }
+  .container {
+    margin-top: 235px;
+    margin-left: 390px;
+  }
+  .years {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  .noepisodes {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .scrollemoji {
+    width: 20px;
+    height: 20px;
+  }
+  .episodeslist {
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .epi {
+    font-size: 25px;
+    margin-left: 10px;  
+    margin-right: 10px;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    background-color: rgba(35, 38, 67, 0.5);
+    border-radius: 2px;
+    width: 10px;
+  }
+  #A {
+    padding: 15px 21px 15px 21px;
+  }
+  .epi:hover {
+    background-color: rgba(35, 38, 67, 1);
+    cursor: pointer;
+  }
+  .totalepisodes {
+    margin-top: 35px;
+  }
+  .first {
+    float: left;
+  }
+  a {
+    text-decoration: none;
+  }
+  .two {
+    padding: 15px 15px 15px 15px;
+    margin-top: 10px;
+  }
+  .bottom{
+    background-color: rgba(35, 38, 67, 1);
+    padding-bottom: 30px;
+  }
+  .fbshare{
+    height:42px;
+    width:43px;
+    border-radius: 10px;
+  }
+  .bottom-heading-logo{
+    display: left;
+  }
+  .tgshare{
+    height:43px;
+    width:43px;
+  }
+  .igshare{
+    height: 43px;
+    padding:0px 10px 0px 10px;
+    width:42px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+  }
+  .igshare:hover{
+    height: 48px;
+    width: 48px;
+    margin-bottom: 10px;
+  }
+  .btm-heading{
+    height:70px;
+    width:300px;
+    display: left;
+  }
+  .fbshare:hover{
+    height:50px;
+    width:50px;
+  }
+  .share{
+    margin-left: 40%;
+  }
+  .fb-share{
+    float:left;
+  }
+  .shareheading{
+    display: block;
+  }
+  .ig-share{
+    float:left;
+  }
+  .tg-share{
+    float: left;
+    padding-right: 10px;
+  }
+  .tgshare:hover{
+    height:50px;
+    width:50px;
+  }
+  .tw-share{
+    padding-left: 10px;
+  }
+  .twshare:hover{
+    height:48px;
+    width:50px;
+  }
+  .twshare{
+    height:42px;
+    width:42px;
+    border-radius: 8px;
+  }
+  .about{
+    float:right;
+    padding:20px 20px 20px 20px;
+  }
+  .infologo{
+    height:20px;
+    width:20px;
+  }
+  a.aboutus{
+    color:white;
+  }
+  a.aboutus:hover{
+    color:orange;
+  }
+  .btm-info{
+    color:#808080;
+    padding:0px 30px 0px 30px;
+  }
+  p.terms-des{
+    padding:0px 20px 0px 20px;
+  }
+  .marquee-mobile{
+    display: none;
+  }
+  .totalepisodes-mobile{
+    display: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .heading {
+      width: 100%;
+    }
+    body {
+      background-size: 1200px;
+    }
+    .share{
+      margin-left:30%;
+    }
+    .naruto_img {
+      display: block;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      height: 200px;
+      width: 150px;
+      padding: 10px 10px 10px 10px;
+      padding-bottom: 0px;
+      border-radius: 25px;
+    }
+    .container {
+      margin-left: 0px;
+      margin-top: 0px;
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+    }
+    .mainhead {
+      float: none;
+      text-align: center;
+      font-size: 40px;
+      padding-top: 0px;
+    }
+    .years {
+      display: none;
+    }
+    .audio {
+      margin-top: 10px;
+    }
+    .first {
+      margin-bottom: 35px;
+    }
+  }
+  @media only screen and (max-width: 430px){
+    .about{
+      display: none;
+    }
+    p.seasons-mobile-no{
+      text-align: center;
+      font-size: 25px;
+    }
+    .seasons-mobile-audio{
+      font-size: 12px;
+    }
+    .share{
+      margin-left:25%;
+    }
+    .blink{
+      margin-left: 23%;
+    }
+    .main{
+      margin-right: 10px;
+    }
+    marquee{
+      display: none;
+    }
+    .marquee-mobile{
+      display: block;
+        margin-top: 10px;
+        font-size: 20px;
+        animation: blinker 1.5s linear infinite;
+        color: red;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      #A{
+        padding: 5px 8px 5px 8px;
+      }
+      .totalepisodes{
+        display: none;
+      }
+      .totalepisodes-mobile{
+        display: block;
+        margin-left:25%;
+        margin-bottom: 20px;
+      }
+      .epi-mobile{
+        font-size: 30px;
+        height: 30px;
+        width: 30px;
+        border-radius:5px;
+        border-width:2px;
+        border-style: solid;
+        text-align: center;
+        background-color:rgba(35, 38, 67, 0.5);
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .epi-mobile:hover{
+        background-color:rgba(35, 38, 67, 1);
+        cursor: pointer;
+      }
+    }
+  

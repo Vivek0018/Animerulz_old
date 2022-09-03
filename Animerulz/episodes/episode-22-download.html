@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+      function count() {
+        var timeleft = 5;
+        var downloadTimer = setInterval(function () {
+          document.getElementById("getlink").style.display = "none";
+          if (timeleft >= 0) {
+            document.getElementById("getlink-1").style.display = "block";
+            document.getElementById("countdown").style.display = "block";
+            document.getElementById("timeleftt").style.display = "block";
+          }
+          if (timeleft >= 0) {
+            document.getElementById("countdown").innerHTML =
+              "&nbsp;" + timeleft + " sec";
+          }
+          if (timeleft == 0) {
+            document.getElementById("getlink-2").style.display = "block";
+            document.getElementById("getlink-1").style.display = "none";
+          }
+          timeleft -= 1;
+        }, 1000);
+      }
+      function download() {
+        open(
+          "https://drive.google.com/uc?id=1nFkb5RS5dpj82KaA6RUMs86TFpSF6b1S&export=download"
+        );
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naruto S-1 Ep-1 Download</title>
+    <link rel="stylesheet" href="styles/episodesdownload.css" />
+  </head>
+  <body>
+    <div class="headingdiv">
+      <img class="heading" src="images/Animerulzlogo.png" alt="Loading" />
+    </div>
+    <div class="scroll">
+      <span class="scroll-to-continue">Scroll Down To Download</span>
+      <img class="scroll-gif" src="images/downarrow.webp" />
+    </div>
+    <div class="timer-getlink">
+      <div id="timeleftt">Time Left:</div>
+      <div id="countdown"></div>
+      <div>
+        <button class="getlink" id="getlink" onclick="count()">Get Link</button>
+      </div>
+      <div>
+        <button class="getlink" id="getlink-1">Getting Link..</button>
+      </div>
+      <div>
+        <button class="getlink" id="getlink-2" onclick="download()">
+          Download
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
