@@ -70,6 +70,11 @@
   .epi-des-mobile{
     display: none;
   }
+@media only screen and (max-width:380px){
+    .scroll-to-continue{
+        margin-left:0%;
+    }
+}
   @media only screen and (max-width:430px){
     .heading {
       width: 100%;
