@@ -5,7 +5,7 @@
     margin-left: 100px;
     padding: 10px 10px 10px 10px;
   }
-.h1{
+h1{
     display:none;
 }
   .blink {
@@ -245,6 +245,9 @@
     display: none;
   }
   @media only screen and (max-width: 600px) {
+      h1{
+          display:none;
+      }
     .heading {
       width: 100%;
     }
@@ -311,6 +314,9 @@
     }
   }
   @media only screen and (max-width:430px){
+      h1{
+          display:none;
+      }
     .body{
       background-image: url("kakashi-naruto.jpg");
       background-repeat: no-repeat;
