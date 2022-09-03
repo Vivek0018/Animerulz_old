@@ -5,6 +5,9 @@
     margin-left: 100px;
     padding: 10px 10px 10px 10px;
   }
+.h1{
+    display:none;
+}
   .blink {
     margin-top: 10px;
     font-size: 20px;
