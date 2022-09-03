@@ -70,11 +70,6 @@
   .epi-des-mobile{
     display: none;
   }
-@media only screen and (max-width:380px){
-    .scroll-to-continue{
-        margin-left:0px;
-    }
-}
   @media only screen and (max-width:430px){
     .heading {
       width: 100%;
@@ -121,7 +116,7 @@
       padding: 0px 0px 10px 10px;
     }
     .scroll-to-continue{
-      font-size: 25px;
+      font-size: 20px;
       margin-left: 10%;
     }
     .scroll-gif{
