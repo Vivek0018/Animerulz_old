@@ -21,7 +21,7 @@ h1{
     }
   }
   body {
-    background-image: url("https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg");
+    background-image: url("kakashi-naruto.webp");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 1500px;
@@ -318,7 +318,7 @@ h1{
           display:none;
       }
     .body{
-      background-image: url("kakashi-naruto.jpg");
+      background-image: url("kakashi-naruto.webp");
       background-repeat: no-repeat;
       background-position-x: center;
       background-size: 10px;
