@@ -436,4 +436,11 @@ h1{
   .bottom{
     margin-top:850px;
   }
+      .Genre{
+    margin-left: 0px;
+  }
+  .list{
+    margin-left: 0px;
+    font-size:15px
+  }
 }
