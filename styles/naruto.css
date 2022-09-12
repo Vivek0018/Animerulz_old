@@ -425,18 +425,44 @@ h1{
     .seasons-mobile-no{
       font-size: 22px;
     }
-    .bottom{
-      margin-top: 730px;
-    }
     .large{
       font-size: 15px;
     }
   }
+  @media only screen and (max-width:920px) and (min-width:730px){
+    .bottom{
+      margin-top: 800px;
+    }
+  }
+  @media only screen and (max-width:730px) and (min-width:630px){
+    .bottom{
+      margin-top: 900px;
+    }
+  }
+  @media only screen and (max-width:630px) and (min-width:600px){
+    .bottom{
+      margin-top: 1000px;
+    }
+  }
+  @media only screen and (max-width:600px) and (min-width:430px){
+    .naruto_img{
+      float:none;
+      margin-left:auto;
+      margin-right: auto;
+      display: block;
+    }
+    .headingAnime{
+      margin-top: 0px;
+    }
+    .bottom{
+      margin-top: 850px;
+    }
+  }
 @media only screen and (max-width:375px){
   .bottom{
-    margin-top:850px;
+   margin-top: 850px;
   }
-      .Genre{
+  .Genre{
     margin-left: 0px;
   }
   .list{
