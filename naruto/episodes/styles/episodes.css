@@ -1,225 +1,252 @@
 .headingdiv {
-    background-color: rgba(35, 38, 67, 0.8);
-  }
-  .heading {
-    width: 350px;
-    height: 80px;
-    object-fit: fill;
-  }
-  .container{
-    padding:0px 20px 0px 20px;
-    float:left;
-  }
-  h1{
-    display: none;
-  }
-  .main-head-info{
-    margin-top: 0px;
-    font-size: 30px;
-  }
-  .epi-img{
-    float:left;
-    padding:10px 10px 10px 10px;
-  }
-
-  .heading-anime{
-    font-size: 60px;
-    margin-left: 5%;
-    padding-right: 20px;
-    float: left;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .main-head-info{
-    padding: 10px 20px 10px 20px;
-  }
-  .epi{
-    padding: 10px 10px  10px 10px;
-  }
-
-  .epi-name{
-    font-size:21px;
-    margin-left: 250px;
-    color: #2c55b5;
-  }
-  .epi-des{
-    margin-right:250px;
-    margin-left: 130px;
-  }
-  .scroll{
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
-    margin-left:34%;
-    margin-right: 34%;
-    padding:0px 0px 20px 20px;
-    background-color: #1f4ebe;
-    color: white;
-  }
-  .scroll-to-continue{
-    font-size:30px;
-    font-weight: bold;
-  }
-  .scroll-gif{
-    height:50px;
-    width:35px;
-  }
-  .continue-button{
-    height: 120px;
-    width: 250px;
-    margin-left: 40%;
-    margin-right: 35%;
-  }
-  .epi-des-mobile{
-    display: none;
-  }
-  @media only screen and (max-width:430px){
-    .heading {
-      width: 100%;
-    }
-    .epi-name-mobile{
-      text-align: center;
-    }
-    h1{
-      display:block;
-      text-align: center;
-    }
-    .heading-anime{
-      display: none;
-    }
-    .main-head-info{
-     text-align: center;
-     font-size: 20px;
-    }
-    .epi-img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      float: none;
-    }
-    .epi-des{
-      display: none;
-    }
-    .epi-des-mobile{
-      display:block;
-      padding-bottom: 20px;
-    }
-    .epi-name-mobile{
-      font-size:25px;
-      text-align: center;
-      color: #2c55b5;
-      margin-top: 0px;
-    }
-    .epi-des-1-mobile{
-      margin-left: 10px;
-      font-size: 15px;
-    }
-    .scroll{
-      margin-left:5px;
-      margin-right: 5px;
-      padding: 0px 0px 10px 10px;
-    }
-    .scroll-to-continue{
-      font-size: 20px;
-      margin-left: 10%;
-    }
-    .scroll-gif{
-      height:30px;
-      width:25px;
-    }
-    .continue-button{
-      height:100px;
-      width: 250px;
-      margin-left: 0px;
-    }
-    .continue{
-      margin-right: 20%;
-    }
-  }
-@media only screen and (max-width:950px) and (min-width:721px){
-  .epi-des{
-    margin-right:0px ;
-  }
-  .scroll{
-    margin-left: 24%;
-    margin-right: 20%;
-  }
-  .continue{
-    margin-right: 22%;
-  }
+  background-color: rgba(35, 38, 67, 0.8);
 }
-@media only screen and (max-width:720px){
-  .scroll{
-    margin-left: 15%;
-    margin-right: 13%;
+.heading {
+  width: 350px;
+  height: 80px;
+  object-fit: fill;
+}
+.container{
+  padding:0px 20px 0px 20px;
+  float:left;
+}
+h1{
+  display: none;
+}
+.main-head-info{
+  margin-top: 0px;
+  font-size: 30px;
+}
+.epi-img{
+  float:left;
+  padding:10px 10px 10px 10px;
+}
+
+.heading-anime{
+  font-size: 60px;
+  margin-left: 5%;
+  padding-right: 20px;
+  float: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-head-info{
+  padding: 10px 20px 10px 20px;
+}
+.epi{
+  padding: 10px 10px  10px 10px;
+}
+
+.epi-name{
+  font-size:21px;
+  margin-left: 250px;
+  color: #2c55b5;
+}
+.epi-des{
+  margin-right:250px;
+  margin-left: 130px;
+}
+.scroll{
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-left:34%;
+  margin-right: 34%;
+  padding:0px 0px 20px 20px;
+  background-color: #1f4ebe;
+  color: white;
+}
+.scroll-to-continue{
+  font-size:30px;
+  font-weight: bold;
+}
+.scroll-gif{
+  height:50px;
+  width:35px;
+}
+.continue-button{
+  height: 120px;
+  width: 250px;
+  margin-left: 40%;
+  margin-right: 35%;
+}
+.epi-des-mobile{
+  display: none;
+}
+@media only screen and (max-width:430px){
+  .heading {
+    width: 100%;
   }
-  .heading-anime{
-    float: none;
-    display: none;
+  .epi-name-mobile{
+    text-align: center;
   }
   h1{
+    display:block;
     text-align: center;
-    font-size: 50px;
-    display: block;
-    margin-bottom: 0px;
+  }
+  .heading-anime{
+    display: none;
   }
   .main-head-info{
-    text-align: center;
-    margin-bottom:0px ;
+   text-align: center;
+   font-size: 20px;
   }
   .epi-img{
-    float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    float: none;
   }
   .epi-des{
-    margin-left: 0px;
-    margin-right: 0px;
+    display: none;
+  }
+  .epi-des-mobile{
+    display:block;
+    padding-bottom: 20px;
+  }
+  .epi-name-mobile{
+    font-size:25px;
+    text-align: center;
+    color: #2c55b5;
     margin-top: 0px;
   }
-  .epi-name{
-    margin-left: 0px;
-    text-align: center;
+  .epi-des-1-mobile{
+    margin-left: 10px;
+    font-size: 15px;
   }
-  .scroll-to-continue{
-    padding-left: 5%;
+  .scroll{
+    margin-left:5px;
+    margin-right: 5px;
+    padding: 0px 0px 10px 10px;
   }
-  .continue-button{
-    margin-left: 30%;
-  }
-}
-@media only screen and (max-width:590px){
-  .continue-button{
-    padding-left: 0px;
-  }
-  .scroll-to-continue{
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 25px;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-}
-@media only screen and (max-width:485px){
-  .scroll-to-continue{
-    font-size: 22px;
-  }
-}
-@media only screen and (max-width:415px){
   .scroll-to-continue{
     font-size: 20px;
+    margin-left: 10%;
   }
-}
-@media only screen and (max-width:385px){
-  .scroll-to-continue{
-    font-size: 18px;
+  .scroll-gif{
+    height:30px;
+    width:25px;
+  }
+  .continue-button{
+    height:100px;
+    width: 250px;
+    margin-left: 0px;
   }
   .continue{
-    margin-right: 33%;
+    margin-right: 20%;
   }
 }
+@media only screen and (max-width:950px) and (min-width:721px){
+.epi-des{
+  margin-right:0px ;
+}
+.scroll{
+  margin-left: 24%;
+  margin-right: 20%;
+}
+.continue{
+  margin-right: 22%;
+}
+}
+@media only screen and (max-width:720px){
+.scroll{
+  margin-left: 15%;
+  margin-right: 13%;
+}
+.heading-anime{
+  float: none;
+  display: none;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  display: block;
+  margin-bottom: 0px;
+}
+.main-head-info{
+  text-align: center;
+  margin-bottom:0px ;
+}
+.epi-img{
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.epi-des{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+.epi-name{
+  margin-left: 0px;
+  text-align: center;
+}
+.scroll-to-continue{
+  padding-left: 5%;
+}
+.continue-button{
+  margin-left: 30%;
+}
+}
+@media only screen and (max-width:590px){
+.continue-button{
+  padding-left: 0px;
+}
+.scroll-to-continue{
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+}
+@media only screen and (max-width:485px){
+.scroll-to-continue{
+  font-size: 22px;
+}
+}
+@media only screen and (max-width:415px){
+.scroll-to-continue{
+  font-size: 20px;
+}
+}
+@media only screen and (max-width:385px){
+.scroll-to-continue{
+  font-size: 18px;
+}
+.continue{
+  margin-right: 33%;
+}
+}
 @media only screen and (max-width:530px){
-  .continue-button{
-    margin-left: 25%;
+.continue-button{
+  margin-left: 25%;
+}
+}
+@media only screen and (max-width:1238px) and (min-width:1019px){
+  .scroll{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: block;
+    padding-left: 3%;
+  }
+}
+@media only screen and (max-width:1018px) and (min-width:967px){
+  .scroll{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: block;
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width:966px) and (min-width:950px){
+  .scroll{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: block;
+    padding-left: 1%;
+  }
+  .scroll-to-continue{
+    font-size: 28px;
   }
 }
