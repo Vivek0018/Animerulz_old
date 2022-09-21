@@ -489,3 +489,11 @@ h1{
     padding-left: 10px;
   }
 }
+@media only screen and (max-width:430px){
+  .round{
+    border-width: 1px;
+  }
+  #info{
+    padding:0px 3px 0px 3px;
+  }
+}
