@@ -39,6 +39,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
 </head>
 <body>
+   <div class="all-might">
    <div class="new-preloader">
       <div class="wrapper">
        <div class="box-wrap">
@@ -376,10 +377,10 @@
           document.getElementsByClassName("new-preloader")[0].style.display = "none";
        }
       </script>
-      <div class="more-menu" style="margin-left: -100vw;">
+      <div class="more-menu">
          <div class="main-container-in-menu">
             <div class="close-div">
-               <div class="close-menu-data" onclick="document.getElementsByClassName('more-menu')[0].style.marginLeft = '-100vw';">
+               <div class="close-menu-data" onclick="hide_menu()">
                   <svg xmlns="http://www.w3.org/2000/svg" class="svg-close-menu" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
                   <span class="txt-close-div">close menu</span>
                </div>
@@ -489,11 +490,11 @@
                </div>
             </div>
          </div>
-         <div class="close-me-div" onclick="document.getElementsByClassName('more-menu')[0].style.marginLeft = '-100vw';"></div>
+         <div class="close-me-div" onclick="hide_menu()"></div>
       </div>
     <nav class="nav-bar" id="nav-bar-id">
       <!-- <i class="fa-solid fa-bars fa-2xl"></i> -->
-      <div class="bars" onclick="document.getElementsByClassName('more-menu')[0].style.marginLeft = '0px';">
+      <div class="bars" onclick="show_menu()">
          <svg xmlns="http://www.w3.org/2000/svg" class="svg-bar-icon" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
          </div>
         <img src="https://vivek0018.github.io/Files.Animerulz/images/Animerulzlogo.webp" class="nav-image" alt="Animerulz">  
@@ -1239,9 +1240,45 @@
             </p>
       </div>
       </div>
+   </div>
+      <script>
+         // function disableScroll() {
+         //     // Get the current page scroll position
+         //     scrollTop =
+         //     window.pageYOffset || document.documentElement.scrollTop;
+         //     scrollLeft =
+         //     window.pageXOffset || document.documentElement.scrollLeft,
+           
+         //         // if any scroll is attempted,
+         //         // set this to the previous value
+         //         window.onscroll = function() {
+         //             window.scrollTo(scrollLeft, scrollTop);
+         //         };
+         // }
+           
+         // function enableScroll() {
+         //     window.onscroll = function() {};
+         // }
+         function disableScroll(){
+            document.getElementsByTagName("body")[0].style.position = "fixed";
+         }
+         function enableScroll(){
+            document.getElementsByTagName("body")[0].style.position = "initial"; 
+         }
+         let menu = document.getElementsByClassName("more-menu")[0];
+
+         function show_menu(){
+            menu.style.marginLeft = "0";
+            disableScroll();
+         }
+         function hide_menu(){
+            menu.style.marginLeft = "-100vw";
+            enableScroll();
+         }
+     </script>
       <link rel="stylesheet" href="https://vivek0018.github.io/Files.Animerulz/styles/home.css">
       <!-- <link rel="stylesheet" href="/styles/slider.css"> -->
-      <link rel="stylesheet" href="https://vivek0018.github.io/Files.Animerulz/styles/style.css">
+      <link rel="stylesheet" href="/styles/style.css">
       <!-- <script src="/scripts/slider.js"></script> -->
       <!-- <script src="script.js"></script> -->
       <script src="https://vivek0018.github.io/Files.Animerulz/scripts/script.js"></script>
